@@ -7,7 +7,7 @@ const port = 8081;
 // Configuration de la base de données PostgreSQL
 const pool = new Pool({
     user: 'myuser',
-    host: 'localhost',
+    host: 'postgres-container',
     database: 'mydatabase',
     password: 'mypassword',
     port: 5432,
